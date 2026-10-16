@@ -1,0 +1,10 @@
+All 3^10=59049 response paths exhaustively tested. Ending counts:
+BAD_03: 18873
+BAD_02: 4464
+BAD_01: 357
+SECRET: 491
+HAPPY_RESONANCE: 692
+HAPPY_SAFETY: 663
+HAPPY_CLOSENESS: 85
+NORMAL: 33424
+Each of 8 endings is reachable.
