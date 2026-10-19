@@ -1,0 +1,609 @@
+{
+  "title": "みつやと綴る、やさしいタイピング",
+  "version": "spec-1.0",
+  "initialStats": {
+    "closeness": 10,
+    "safety": 10,
+    "resonance": 10
+  },
+  "range": [
+    0,
+    40
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "雨の入り口",
+      "location": "雨上がりの書店",
+      "mitsuya": "窓を叩く雨を見てた。今日は、どんな一日だった？",
+      "mood": "normal",
+      "choices": [
+        {
+          "id": "A",
+          "text": "なんでもない一日だったよ",
+          "reading": "なんでもないいちにちだったよ",
+          "response": "「なんでもない日にも、残る景色があるよね。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 1,
+            "resonance": 1
+          },
+          "flags": [],
+          "nextScene": "02"
+        },
+        {
+          "id": "B",
+          "text": "少し疲れたけど来てよかった",
+          "reading": "すこしつかれたけどきてよかった",
+          "response": "「そう言ってもらえると、僕もほっとする。」",
+          "delta": {
+            "closeness": 2,
+            "safety": 2,
+            "resonance": 1
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "02"
+        },
+        {
+          "id": "C",
+          "text": "そんなことより早く始めよう",
+          "reading": "そんなことよりはやくはじめよう",
+          "response": "「……うん。急がなくていいはずなんだけどね。」",
+          "delta": {
+            "closeness": -2,
+            "safety": -2,
+            "resonance": -1
+          },
+          "flags": [
+            "pressure"
+          ],
+          "nextScene": "02"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "沈黙の意味",
+      "location": "書店の奥のテーブル",
+      "mitsuya": "会話が止まると、少しだけ不安になることがある。",
+      "mood": "normal",
+      "choices": [
+        {
+          "id": "A",
+          "text": "沈黙も一緒に過ごす時間だよ",
+          "reading": "ちんもくもいっしょにすごすじかんだよ",
+          "response": "「それなら、黙っている時間も怖くないな。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 3,
+            "resonance": 2
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "03"
+        },
+        {
+          "id": "B",
+          "text": "話題を変えたほうがいいかな",
+          "reading": "わだいをかえたほうがいいかな",
+          "response": "「気遣ってくれたんだね。ありがとう。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 1,
+            "resonance": 0
+          },
+          "flags": [],
+          "nextScene": "03"
+        },
+        {
+          "id": "C",
+          "text": "黙るなら僕も帰るよ",
+          "reading": "だまるならぼくもかえるよ",
+          "response": "「……引き止める言葉が、すぐに見つからない。」",
+          "delta": {
+            "closeness": -2,
+            "safety": -3,
+            "resonance": -1
+          },
+          "flags": [
+            "pressure"
+          ],
+          "nextScene": "03"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "余白のある答え",
+      "location": "薄暗い図書室",
+      "mitsuya": "正しい返事を探していると、自分の言葉が見えなくなる。",
+      "mood": "normal",
+      "choices": [
+        {
+          "id": "A",
+          "text": "正解より本音が聞きたい",
+          "reading": "せいかいよりほんねがききたい",
+          "response": "「本音、か。少し時間をもらってもいい？」",
+          "delta": {
+            "closeness": 2,
+            "safety": 2,
+            "resonance": 3
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "04"
+        },
+        {
+          "id": "B",
+          "text": "わかりやすく答えてほしい",
+          "reading": "わかりやすくこたえてほしい",
+          "response": "「努力してみる。でも、うまく言えるかな。」",
+          "delta": {
+            "closeness": 0,
+            "safety": -1,
+            "resonance": 0
+          },
+          "flags": [],
+          "nextScene": "04"
+        },
+        {
+          "id": "C",
+          "text": "考えすぎだと思うよ",
+          "reading": "かんがえすぎだとおもうよ",
+          "response": "「そうかもしれない。だけど、簡単には止められなくて。」",
+          "delta": {
+            "closeness": -1,
+            "safety": -2,
+            "resonance": -2
+          },
+          "flags": [
+            "mask"
+          ],
+          "nextScene": "04"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "誰かの期待",
+      "location": "夕暮れの電車",
+      "mitsuya": "期待に応えたい気持ちが、自分の声を小さくすることがある。",
+      "mood": "twilight",
+      "choices": [
+        {
+          "id": "A",
+          "text": "期待と本音は別でもいい",
+          "reading": "きたいとほんねはべつでもいい",
+          "response": "「違ってもいい、って言葉は少し救われる。」",
+          "delta": {
+            "closeness": 2,
+            "safety": 2,
+            "resonance": 3
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "05"
+        },
+        {
+          "id": "B",
+          "text": "頼られるのはいいことだね",
+          "reading": "たよられるのはいいことだね",
+          "response": "「うん。嬉しい気持ちも本当なんだ。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 0,
+            "resonance": 1
+          },
+          "flags": [],
+          "nextScene": "05"
+        },
+        {
+          "id": "C",
+          "text": "みんなに合わせたら楽だよ",
+          "reading": "みんなにあわせたららくだよ",
+          "response": "「……楽に見えるだけのこともあるんだ。」",
+          "delta": {
+            "closeness": -1,
+            "safety": -2,
+            "resonance": -2
+          },
+          "flags": [
+            "mask"
+          ],
+          "nextScene": "05"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "優しさの形",
+      "location": "雨の歩道",
+      "mitsuya": "相手を傷つけたくなくて、何も言えなかったことがある。",
+      "mood": "twilight",
+      "choices": [
+        {
+          "id": "A",
+          "text": "言葉にできない日もあるよ",
+          "reading": "ことばにできないひもあるよ",
+          "response": "「ああ……それを知っていてくれるんだね。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 3,
+            "resonance": 2
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "06"
+        },
+        {
+          "id": "B",
+          "text": "次は言ってみよう",
+          "reading": "つぎはいってみよう",
+          "response": "「そうだね。少しずつなら、できるかも。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 1,
+            "resonance": 0
+          },
+          "flags": [],
+          "nextScene": "06"
+        },
+        {
+          "id": "C",
+          "text": "黙ってたなら自業自得だよ",
+          "reading": "だまってたならじごうじとくだよ",
+          "response": "「……そう思われても、仕方ないのかな。」",
+          "delta": {
+            "closeness": -2,
+            "safety": -3,
+            "resonance": -2
+          },
+          "flags": [
+            "mask"
+          ],
+          "nextScene": "06"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "ほどけない夜",
+      "location": "街灯のある橋",
+      "mitsuya": "夜になると、昼間は平気だったことまで思い返してしまう。",
+      "mood": "twilight",
+      "choices": [
+        {
+          "id": "A",
+          "text": "一緒に整理してみる",
+          "reading": "いっしょにせいりしてみる",
+          "response": "「一つずつなら、言葉にできる気がする。」",
+          "delta": {
+            "closeness": 2,
+            "safety": 2,
+            "resonance": 3
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "07"
+        },
+        {
+          "id": "B",
+          "text": "今日は休んだほうがいい",
+          "reading": "きょうはやすんだほうがいい",
+          "response": "「そうだね。休むことも大事にしないと。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 2,
+            "resonance": 0
+          },
+          "flags": [],
+          "nextScene": "07"
+        },
+        {
+          "id": "C",
+          "text": "まだ考えてるなんて変だよ",
+          "reading": "まだかんがえてるなんてへんだよ",
+          "response": "「……そっか。話すの、やめておこうかな。」",
+          "delta": {
+            "closeness": -2,
+            "safety": -3,
+            "resonance": -3
+          },
+          "flags": [
+            "mask"
+          ],
+          "nextScene": "07"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "猫と小さな灯り",
+      "location": "部屋の窓辺",
+      "mitsuya": "この猫、何も聞かないのに、そばにいてくれるんだ。",
+      "mood": "variable",
+      "choices": [
+        {
+          "id": "A",
+          "text": "そばにいるだけでいいんだね",
+          "reading": "そばにいるだけでいいんだね",
+          "response": "「うん。説明しなくてもいい時間って、いいね。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 3,
+            "resonance": 2
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "08"
+        },
+        {
+          "id": "B",
+          "text": "かわいい猫だね",
+          "reading": "かわいいねこだね",
+          "response": "「ふふ。そうでしょう。名前、まだ決めてないんだ。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 1,
+            "resonance": 1
+          },
+          "flags": [],
+          "nextScene": "08"
+        },
+        {
+          "id": "C",
+          "text": "僕のことも見てほしいな",
+          "reading": "ぼくのこともみてほしいな",
+          "response": "「見てるよ。でも少し、ゆっくり話したい。」",
+          "delta": {
+            "closeness": -1,
+            "safety": -1,
+            "resonance": 0
+          },
+          "flags": [
+            "pressure"
+          ],
+          "nextScene": "08"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "見えない境界線",
+      "location": "夜の室内",
+      "mitsuya": "誰かが近づいてくれるのは嬉しい。でも、少しだけ怖いときもある。",
+      "mood": "variable",
+      "choices": [
+        {
+          "id": "A",
+          "text": "近づく速さは選んでいい",
+          "reading": "ちかづくはやさはえらんでいい",
+          "response": "「その言葉を、覚えておきたいな。」",
+          "delta": {
+            "closeness": 2,
+            "safety": 3,
+            "resonance": 3
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "09"
+        },
+        {
+          "id": "B",
+          "text": "怖くても話してほしい",
+          "reading": "こわくてもはなしてほしい",
+          "response": "「話したい。だけど、待ってくれると嬉しい。」",
+          "delta": {
+            "closeness": 1,
+            "safety": -1,
+            "resonance": 0
+          },
+          "flags": [],
+          "nextScene": "09"
+        },
+        {
+          "id": "C",
+          "text": "全部話してくれないと嫌だ",
+          "reading": "ぜんぶはなしてくれないといやだ",
+          "response": "「……ごめん。今は、そこまで話せない。」",
+          "delta": {
+            "closeness": -2,
+            "safety": -3,
+            "resonance": -2
+          },
+          "flags": [
+            "pressure"
+          ],
+          "nextScene": "09"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "届くまでの時間",
+      "location": "深夜の窓",
+      "mitsuya": "言葉って、すぐに届くとは限らないんだね。",
+      "mood": "variable",
+      "choices": [
+        {
+          "id": "A",
+          "text": "届くまで待つこともできる",
+          "reading": "とどくまでまつこともできる",
+          "response": "「急がなくていいなら、もう少し話せそう。」",
+          "delta": {
+            "closeness": 2,
+            "safety": 3,
+            "resonance": 2
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "10"
+        },
+        {
+          "id": "B",
+          "text": "ちゃんと伝わったと思う",
+          "reading": "ちゃんとつたわったとおもう",
+          "response": "「うん。僕も、そう思いたい。」",
+          "delta": {
+            "closeness": 1,
+            "safety": 1,
+            "resonance": 1
+          },
+          "flags": [],
+          "nextScene": "10"
+        },
+        {
+          "id": "C",
+          "text": "今すぐ答えを出してほしい",
+          "reading": "いますぐこたえをだしてほしい",
+          "response": "「……今夜は、答えが見つからない。」",
+          "delta": {
+            "closeness": -1,
+            "safety": -2,
+            "resonance": -2
+          },
+          "flags": [
+            "pressure"
+          ],
+          "nextScene": "10"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "また会うための余白",
+      "location": "夜明け前の川辺",
+      "mitsuya": "ここまで話してみて、あなたは何を持ち帰る？",
+      "mood": "variable",
+      "choices": [
+        {
+          "id": "A",
+          "text": "違いがあっても話せること",
+          "reading": "ちがいがあってもはなせること",
+          "response": "「それは、僕にも大切な発見だった。」",
+          "delta": {
+            "closeness": 2,
+            "safety": 2,
+            "resonance": 3
+          },
+          "flags": [
+            "insight"
+          ],
+          "nextScene": "ENDING"
+        },
+        {
+          "id": "B",
+          "text": "今日の静かな時間",
+          "reading": "きょうのしずかなじかん",
+          "response": "「……僕も、この時間を大事にしたい。」",
+          "delta": {
+            "closeness": 2,
+            "safety": 2,
+            "resonance": 1
+          },
+          "flags": [],
+          "nextScene": "ENDING"
+        },
+        {
+          "id": "C",
+          "text": "もっと僕に合わせてほしい",
+          "reading": "もっとぼくにあわせてほしい",
+          "response": "「ごめんね。僕にも守りたいペースがあるんだ。」",
+          "delta": {
+            "closeness": -2,
+            "safety": -2,
+            "resonance": -1
+          },
+          "flags": [
+            "pressure"
+          ],
+          "nextScene": "ENDING"
+        }
+      ]
+    }
+  ],
+  "endingsInPriorityOrder": [
+    {
+      "id": "BAD_03",
+      "title": "届かなかった言葉",
+      "type": "bad",
+      "when": "pressure >= 3",
+      "reward": "街灯の下、誰もいない橋",
+      "line": "「話せないことまで、急いで渡さなくてよかったんだ。」",
+      "theme": "closed"
+    },
+    {
+      "id": "BAD_02",
+      "title": "優しさの仮面",
+      "type": "bad",
+      "when": "mask >= 3",
+      "reward": "ガラスに映る曖昧な笑顔",
+      "line": "「大丈夫、って言いすぎたのかもしれない。」",
+      "theme": "closed"
+    },
+    {
+      "id": "BAD_01",
+      "title": "閉じた窓",
+      "type": "bad",
+      "when": "safety <= 5 or resonance <= 5",
+      "reward": "灯りの消えた窓辺",
+      "line": "「……今夜は、ここまでにしよう。」",
+      "theme": "closed"
+    },
+    {
+      "id": "SECRET",
+      "title": "雨のあとに残る星",
+      "type": "secret",
+      "when": "insight >= 7 and total >= 75 and safety >= 22 and pressure < 3 and mask < 3",
+      "reward": "特別な夜明けとみつやの横顔",
+      "line": "「言葉が違っても、同じ空を見られるんだね。」",
+      "theme": "resonance"
+    },
+    {
+      "id": "HAPPY_RESONANCE",
+      "title": "星を分けあう夜",
+      "type": "happy",
+      "when": "resonance >= 26 and total >= 60",
+      "reward": "星明かりの川辺",
+      "line": "「考え方が重なる瞬間って、静かなんだね。」",
+      "theme": "resonance"
+    },
+    {
+      "id": "HAPPY_SAFETY",
+      "title": "雨音の居場所",
+      "type": "happy",
+      "when": "safety >= 26 and total >= 60",
+      "reward": "猫と灯りのある部屋",
+      "line": "「ここでは、何も急がなくていいんだね。」",
+      "theme": "warm"
+    },
+    {
+      "id": "HAPPY_CLOSENESS",
+      "title": "夜明けの約束",
+      "type": "happy",
+      "when": "closeness >= 24 and total >= 60",
+      "reward": "朝焼けを眺めるみつや",
+      "line": "「また会えたら、続きを聞かせて。」",
+      "theme": "warm"
+    },
+    {
+      "id": "NORMAL",
+      "title": "また会うための余白",
+      "type": "normal",
+      "when": "otherwise",
+      "reward": "雨上がりの書店の栞",
+      "line": "「今日の話は、ここに置いておこう。」",
+      "theme": "normal"
+    }
+  ]
+}
