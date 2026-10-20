@@ -129,3 +129,11 @@
 .storage-notice summary{cursor:pointer;color:#e4efdd;font-weight:600}
 .storage-notice p{margin:9px 0 0}
 @media(max-width:550px){.video-memory-grid{grid-template-columns:1fr}.story-video-wrap{max-height:96dvh}.story-video-wrap video{max-height:48dvh}}
+
+/* v2.1: Romaji choice clarity */
+.romaji-example{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;letter-spacing:.04em;opacity:.75;overflow-wrap:anywhere;margin-top:3px;}
+.choice.single .romaji-example{color:#d4f2cf;opacity:1;}
+.typefield{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.06em;}
+.backup-tools{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0;}
+.backup-import{cursor:pointer;display:inline-flex;align-items:center;}
+.choice.dim{opacity:.46;}
