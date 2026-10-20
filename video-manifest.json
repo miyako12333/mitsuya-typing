@@ -1,0 +1,39 @@
+{
+  "version": "2.0",
+  "source": "Higgsfield Seedance 2.0 Mini",
+  "durationSeconds": 8,
+  "resolution": "720p",
+  "audio": true,
+  "hosting": "external",
+  "video_urls": {
+    "NORMAL": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261019_092907_d2a5efb8-aa5d-4c05-b590-61e952b8c6f9.mp4",
+    "HAPPY_CLOSENESS": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261019_093922_6620687e-62c1-49f0-b19b-9ad1aa64f55f.mp4",
+    "HAPPY_CLOSENESS_1": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_012551_1ce5d983-e4d7-42bd-8db8-74d2aac07906.mp4",
+    "HAPPY_CLOSENESS_2": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_012555_77caa725-b889-447b-aa01-564ece6bc434.mp4",
+    "HAPPY_CLOSENESS_3": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_012559_1f43ba58-f6da-450e-80a9-a9b5eb187909.mp4",
+    "HAPPY_RESONANCE": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_012630_e7edb93e-b74d-49e7-bb0f-708b1d108c92.mp4",
+    "HAPPY_SAFETY": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_012837_aade163a-c4d3-4739-b4a3-84f8397f5d46.mp4",
+    "BAD_01": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_012906_fa5edc18-9f9e-416e-bb0c-da2732ade2be.mp4",
+    "BAD_02": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_012910_d0f19cbd-3f90-45de-b20f-32b7633059c1.mp4",
+    "BAD_03": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_012942_593018f1-8fdd-4fc4-aab6-6336975fc4ee.mp4",
+    "SECRET": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_013149_a98fc522-7fef-48b3-ba36-63f355b9cb34.mp4"
+  },
+  "total_videos": 25,
+  "events": {
+    "INTRO": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_014448_c372dacb-3bed-42e6-ab3f-400d9c9d933c.mp4",
+    "MEET_AGAIN": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_014452_3931aa42-e11a-4b36-bae5-46ca5d45e2de.mp4",
+    "SECRET_NOTE": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_014457_a2a598ca-e953-44ba-8d71-d46d5bb511eb.mp4",
+    "VULNERABLE": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_014655_f7a70136-629b-4d1d-8f29-2aa4d13a5b60.mp4",
+    "QUIET_TIME": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_014736_84cffffb-f1cb-4383-b173-9aace817d21b.mp4",
+    "SAME_STARS": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_014740_cbb6dd85-ebce-4dd0-af97-a0f81d92deea.mp4",
+    "MY_TURN": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_014822_1effa85f-52ac-43b3-89af-6d12c3f70fa7.mp4",
+    "UNSPOKEN": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_014952_9560c3b0-4261-42ea-a386-a78a10304d9d.mp4",
+    "WELCOME_BACK": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_021231_46dfd553-cb7d-438f-8c6b-fd689db3acd4.mp4",
+    "FIRST_LAUGH": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_021237_12bb94f8-f524-4768-b4a4-20cfe177336d.mp4",
+    "WEEKEND_STROLL": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_021242_1744eaea-36f9-41a4-b27c-c36156cbf8a7.mp4",
+    "CASUAL_NAME": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_021349_48e47b12-ed0e-4a6f-9a00-a09f5e2992f2.mp4",
+    "CORE_SECRET": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_021515_bb38e52a-49ae-4fa8-8f2e-8c7113dab0e1.mp4",
+    "SEE_YOU_TOMORROW": "https://d8j0ntlcm91z4.cloudfront.net/user_32a7XXQFux0gfG2cgMkQgLQk5JP/hf_20261020_021530_2312cf4f-5766-4574-8146-65074921e711.mp4"
+  },
+  "note": "External hosted streaming URLs; MP4 binaries are not included. Back up locally before permanent publication."
+}

@@ -89,3 +89,43 @@
  .choice{padding:5px 10px 4px}.choice .read{display:none}
  .maincopy.scene-message{font-size:21px}.homefeatures{gap:6px}
 }
+
+/* v1.5: show paused measurement clearly while INFJ explanations are read */
+.gameclock.clock-paused{color:#d6e9d4}
+.gameclock .clock-state{display:inline-block;margin-left:9px;padding:3px 7px;border:1px solid rgba(184,214,189,.36);border-radius:999px;letter-spacing:0;font-size:11px;font-family:inherit;color:#d2e8d4;background:rgba(133,173,147,.13);white-space:nowrap}
+@media(max-width:420px){.gameclock .clock-state{font-size:10px;margin-left:4px;padding:2px 4px}}
+
+/* v1.7 long-term relationship progression */
+.bond-info{border:1px solid rgba(202,225,203,.3);border-radius:12px;padding:13px 15px;background:rgba(157,194,166,.10);color:#e7efdf}.bond-info strong{display:block;font-size:14px;letter-spacing:.05em}.bond-info p{font-size:12px;line-height:1.6;margin:7px 0}.bond-info span{font-size:11px;color:#c2d6ca}
+
+/* v1.8 · The 70-scene illustrated journey */
+.art-album{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.art-card{border:1px solid #ffffff2d;border-radius:12px;background:#ffffff0b;padding:0;color:#e4e9de;overflow:hidden;text-align:left;cursor:pointer}
+.art-card img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 28%}
+.art-card span{display:block;padding:10px 12px;min-height:70px}
+.art-card small{display:block;color:#b5d2bc;letter-spacing:.12em;font-size:10px}
+.art-card strong{display:block;font-size:12px;line-height:1.4;margin-top:5px;font-weight:500}
+.art-card.locked img{filter:grayscale(1) brightness(.2) blur(3px)}
+.album-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:16px 0;color:#c9d5ca;font-size:12px}
+@media(min-width:1150px){.art-album{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:420px){.art-album{gap:8px}.art-card span{padding:8px}.art-card strong{font-size:11px}}
+
+/* v2.0 · Event videos, skip, replay, and browser-data guidance */
+.story-video-modal{z-index:100;overscroll-behavior:contain}
+.story-video-wrap{width:min(94vw,880px);max-height:94dvh;overflow:auto;background:#172a2b;border:1px solid #b8cfb776;padding:clamp(14px,3vw,25px);border-radius:18px;text-align:center}
+.story-video-wrap h2{font-family:'Yu Mincho',serif;font-weight:400;font-size:clamp(19px,3vw,30px);margin:8px 0 15px;color:#f0e9d6}
+.story-video-wrap video{display:block;max-width:100%;width:100%;max-height:62dvh;aspect-ratio:16/9;object-fit:contain;background:#060c0c;border-radius:10px}
+.story-video-wrap .btnrow{justify-content:center;margin-top:15px}
+.video-memory-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.video-memory-card{min-height:104px;text-align:left;padding:12px 14px;background:#e4efe008;border:1px solid #b9d2bc51;border-radius:13px;color:#ecf0e9;display:flex;flex-direction:column;gap:9px;cursor:pointer}
+.video-memory-card:hover:not(:disabled){background:#d2edda18;border-color:#c8dfcb}
+.video-memory-card strong{font-size:13px;line-height:1.4}
+.video-memory-card small,.memory-kind{font-size:10px;color:#b9d5c6}
+.video-memory-card.is-locked{opacity:.48;cursor:default}.video-memory-card.is-locked strong{letter-spacing:.12em}
+.video-pref{border:1px solid #cee3d25e;background:#b0d7bf10;padding:13px 16px;border-radius:13px;font-size:12px}
+.video-pref label{font-weight:700;display:flex;gap:9px;align-items:center;cursor:pointer}.video-pref input{accent-color:#b9d6bf;width:16px;height:16px}
+.video-pref p{font-size:11px;color:#bdd0c5;line-height:1.7;margin:8px 0 0}
+.storage-notice{border:1px solid #bbceb83e;border-radius:12px;padding:13px 15px;color:#c9d9cf;font-size:12px;line-height:1.8}
+.storage-notice summary{cursor:pointer;color:#e4efdd;font-weight:600}
+.storage-notice p{margin:9px 0 0}
+@media(max-width:550px){.video-memory-grid{grid-template-columns:1fr}.story-video-wrap{max-height:96dvh}.story-video-wrap video{max-height:48dvh}}
